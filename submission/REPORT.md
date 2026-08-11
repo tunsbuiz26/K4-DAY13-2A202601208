@@ -13,11 +13,7 @@ Nhóm giữ đúng bốn vai trò chính của đề bài; Nguyễn Ngọc Chi v
 |---|---|---|---|
 | Đào Chí Hiển | 2A202601066 | Logging & PII | Correlation ID, structured logging, context metadata, redaction, test bảo mật log |
 | Nguyễn Bùi Anh Tuấn | 2A202601208 | Tracing & Prompt Version | Waterfall span, metadata trace/generation, prompt fallback/version/label, quy trình rollback |
-<<<<<<< Updated upstream
-| Nguyễn Việt Anh | 2A202601144 | Dashboard, SLO & Alert | Metrics, dashboard 6 panel, validator, runtime dashboard |
-=======
 | Nguyễn Việt Anh | 2A202601144 | Dashboard, SLO & Alert | Metrics, dashboard 6 panel, validator, HTML/PNG runtime dashboard |
->>>>>>> Stashed changes
 | Nguyễn Ngọc Chi | 2A202602024 | Incident, Report & Demo | SLO, alert rules, runbook, điều tra challenge và biện pháp phòng ngừa |
 | Trần Thanh Bình | 2A202601174 | Incident, Report & Demo (đồng sở hữu) | QA, automation evidence, báo cáo, checklist demo và kiểm tra nộp bài |
 
