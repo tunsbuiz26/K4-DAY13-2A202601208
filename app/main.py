@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import JSONResponse
@@ -17,19 +18,23 @@ from .tracing import tracing_enabled
 
 configure_logging()
 log = get_logger()
-app = FastAPI(title="Day 13 Observability Lab")
-app.add_middleware(CorrelationIdMiddleware)
 agent = LabAgent()
 
 
-@app.on_event("startup")
-async def startup() -> None:
+@asynccontextmanager
+async def lifespan(_: FastAPI):
     log.info(
         "app_started",
         service=os.getenv("APP_NAME", "day13-observability-lab"),
+        correlation_id="system-startup",
         env=os.getenv("APP_ENV", "dev"),
         payload={"tracing_enabled": tracing_enabled()},
     )
+    yield
+
+
+app = FastAPI(title="Day 13 Observability Lab", lifespan=lifespan)
+app.add_middleware(CorrelationIdMiddleware)
 
 
 @app.get("/health")
@@ -44,9 +49,14 @@ async def metrics() -> dict:
 
 @app.post("/chat", response_model=ChatResponse)
 async def chat(request: Request, body: ChatRequest) -> ChatResponse:
-    # TODO: Enrich logs with request context (user_id_hash, session_id, feature, model, env)
-    # bind_contextvars(...)
-    
+    bind_contextvars(
+        user_id_hash=hash_user_id(body.user_id),
+        session_id=body.session_id,
+        feature=body.feature,
+        model=agent.model,
+        env=os.getenv("APP_ENV", "dev"),
+    )
+
     log.info(
         "request_received",
         service="api",
