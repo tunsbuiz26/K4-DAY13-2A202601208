@@ -30,4 +30,4 @@ Vai trò chính: **Tracing & Prompt Version**. Mục tiêu là giải thích đ�
 
 ## Kết quả và việc còn lại
 
-Instrumentation và unit test đã hoàn thành. Phần việc này được commit trực tiếp lên nhánh `main` bằng tài khoản `tunsbuiz26`; SHA nằm trong lịch sử Git. Nhóm vẫn cần key/project Langfuse thật để tạo tối thiểu 10 traces, hai prompt version, trace IDs và ảnh rollback trước khi nộp.
+Instrumentation, safe no-key fallback và unit test đã hoàn thành tại các commit `0e60fa9` và `601914e` bằng tài khoản `tunsbuiz26`. Nhóm vẫn cần key/project Langfuse thật để tạo tối thiểu 10 traces, hai prompt version, trace IDs và ảnh rollback trước khi nộp.

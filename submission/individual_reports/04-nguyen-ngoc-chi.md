@@ -10,7 +10,7 @@ Vai trò chính: **Incident, Report & Demo**, đồng thời sở hữu phần S
 - Hoàn thiện ba alert symptom-based với severity, duration, minimum traffic, owner và runbook.
 - Viết runbook ba bước đầu: xác định cửa sổ metrics, mở trace/span bất thường, dùng correlation ID xác nhận log.
 - Chạy challenge chính thức `day13-k4-observability-v1`, scenario `rag_slow`, feature `monitoring`.
-- So sánh baseline/incident và chọn correlation ID đại diện `req-91e29444`.
+- So sánh baseline/incident và chọn correlation ID đại diện `req-8f674f48`.
 - Xác định root cause và preventive action, bao gồm ảnh hưởng head-of-line blocking do `time.sleep` trong đường xử lý async.
 
 ## File và evidence
@@ -22,8 +22,8 @@ Vai trò chính: **Incident, Report & Demo**, đồng thời sở hữu phần S
 
 ## Kết quả điều tra
 
-- Baseline P95: 150 ms.
-- Incident P95: 2.654 ms, tăng 17,7 lần và vượt ngưỡng challenge 2.000 ms.
+- Baseline P95: 156 ms.
+- Incident P95: 2.659 ms, tăng khoảng 17,0 lần và vượt ngưỡng challenge 2.000 ms.
 - Retrieval P95: 2.500 ms; generation P95: 150 ms.
 - Root cause trực tiếp: incident `rag_slow` tại retrieval.
 - Fix: tắt incident, dùng async/thread pool cho blocking retrieval, timeout/circuit breaker và concurrency limit.
@@ -37,4 +37,4 @@ Vai trò chính: **Incident, Report & Demo**, đồng thời sở hữu phần S
 
 ## Hạn chế và việc còn lại
 
-Trace ID thật chưa có vì tracing bị tắt khi thiếu Langfuse key. Cần chụp waterfall sau khi cấu hình project thật và cập nhật evidence. Commit/PR cá nhân cũng chưa được tạo.
+Phần incident/report đã được commit bằng tài khoản `Menakanchi` tại `50b377b`. Trace ID thật vẫn chưa có vì tracing bị tắt khi thiếu Langfuse key; cần chụp waterfall sau khi cấu hình project thật và cập nhật evidence.

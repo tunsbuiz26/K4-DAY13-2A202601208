@@ -31,4 +31,4 @@ Vai trò chính: **Dashboard, SLO & Alert**; phạm vi cá nhân tập trung và
 
 ## Kết quả và việc còn lại
 
-Dashboard local đã dựng và kiểm tra trực quan; P95 hiện là 2.654 ms, error 0%, cost 0,0440 USD, 3.512 token và quality 0,857 trên cửa sổ evidence. Commit/PR cá nhân chưa được tạo và cần cập nhật trước khi nộp.
+Dashboard đã dựng, kiểm tra trực quan và được commit bằng tài khoản `VietAnh1027` tại `989612d` và `97fb51f`. Snapshot mới nhất có P95 2.659 ms, error 0%, cost 0,034701 USD, 2.759 token và quality 0,859.

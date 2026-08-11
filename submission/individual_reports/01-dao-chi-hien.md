@@ -30,4 +30,4 @@ Vai trò chính: **Logging & PII**. Mục tiêu là để mọi request `/chat` 
 
 ## Kết quả và việc còn lại
 
-Phần local đạt gate logging/PII. Commit/PR cá nhân chưa được tạo trong working tree hiện tại; cần commit đúng tài khoản Đào Chí Hiển và cập nhật link vào báo cáo nhóm trước khi nộp.
+Phần logging/PII đạt gate 100/100, không có PII leak và đã được commit bằng tài khoản `doclautc-1808` tại `cfcf553` trên `main`.

@@ -16,7 +16,7 @@ Vai trò: **Incident, Report & Demo - đồng sở hữu**, tập trung QA, auto
 ## File và evidence
 
 - File sở hữu: `scripts/collect_evidence.py`, `submission/REPORT.md`, `submission/WORK_ASSIGNMENT.md`, `submission/individual_reports/`, `submission/evidence/`.
-- Test: `submission/evidence/pytest.txt` - 29 passed.
+- Test: `submission/evidence/pytest.txt` - 30 passed.
 - Log validator: `submission/evidence/validate-logs.txt` - 100/100.
 - Dashboard validator: `submission/evidence/validate-dashboard.txt` - 6/6.
 - Pending external evidence: `submission/evidence/langfuse-pending.md`.
@@ -31,4 +31,4 @@ Vai trò: **Incident, Report & Demo - đồng sở hữu**, tập trung QA, auto
 
 ## Kết quả và việc còn lại
 
-Gate local đã qua 29 test và hai validator. Cần từng thành viên tạo commit/PR bằng tài khoản thật, thu Langfuse evidence và chạy lại collector ngay trước final commit. Commit/PR cá nhân hiện chưa có nên báo cáo không gán tác giả giả.
+Gate local đã qua 30 test và hai validator. Phần QA/report được commit bằng tài khoản Trần Thanh Bình tại `c988f2c` và `41fb305`; nhóm vẫn cần thu Langfuse evidence và chạy lại collector ngay trước khi nộp.
