@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-11T08:13:35.824250+00:00",
+  "generated_at": "2026-08-11T10:13:32.647163+00:00",
   "time_range_minutes": 60,
-  "records_in_window": 70,
+  "records_in_window": 83,
   "metrics": {
     "latency": {
-      "p50": 150.0,
-      "p95": 2654.0,
-      "p99": 2654.0
+      "p50": 155.0,
+      "p95": 2659.0,
+      "p99": 2659.0
     },
     "traffic": {
-      "count": 21,
-      "rate_per_minute": 0.35
+      "count": 17,
+      "rate_per_minute": 0.28
     },
     "errors": {
       "rate_pct": 0.0,
@@ -18,18 +18,18 @@
       "breakdown": {}
     },
     "cost": {
-      "total_usd": 0.043968
+      "total_usd": 0.034701
     },
     "tokens": {
-      "input": 726,
-      "output": 2786
+      "input": 557,
+      "output": 2202
     },
     "quality": {
-      "mean": 0.857
+      "mean": 0.859
     },
     "series": [
       {
-        "minute": "07:50",
+        "minute": "10:06",
         "requests": 0,
         "errors": 0,
         "latencies": [],
@@ -38,7 +38,7 @@
         "quality": []
       },
       {
-        "minute": "07:51",
+        "minute": "10:07",
         "requests": 0,
         "errors": 0,
         "latencies": [],
@@ -47,31 +47,24 @@
         "quality": []
       },
       {
-        "minute": "07:52",
-        "requests": 16,
+        "minute": "10:08",
+        "requests": 11,
         "errors": 0,
         "latencies": [
-          150.0,
-          150.0,
-          150.0,
-          150.0,
-          150.0,
-          150.0,
-          150.0,
-          150.0,
-          150.0,
-          150.0,
-          150.0,
-          2652.0,
-          2651.0,
-          2654.0,
-          2654.0,
-          2653.0
+          156.0,
+          154.0,
+          156.0,
+          155.0,
+          154.0,
+          155.0,
+          155.0,
+          155.0,
+          155.0,
+          155.0
         ],
-        "cost": 0.035253,
-        "tokens": 2791,
+        "cost": 0.019995,
+        "tokens": 1597,
         "quality": [
-          0.8,
           0.9,
           0.8,
           0.8,
@@ -81,75 +74,32 @@
           0.9,
           0.9,
           0.9,
-          0.9,
-          0.9,
-          0.8,
-          0.8,
-          0.9,
-          0.8
-        ]
-      },
-      {
-        "minute": "07:55",
-        "requests": 0,
-        "errors": 0,
-        "latencies": [],
-        "cost": 0.0,
-        "tokens": 0,
-        "quality": []
-      },
-      {
-        "minute": "07:56",
-        "requests": 0,
-        "errors": 0,
-        "latencies": [],
-        "cost": 0.0,
-        "tokens": 0,
-        "quality": []
-      },
-      {
-        "minute": "07:57",
-        "requests": 0,
-        "errors": 0,
-        "latencies": [],
-        "cost": 0.0,
-        "tokens": 0,
-        "quality": []
-      },
-      {
-        "minute": "07:58",
-        "requests": 5,
-        "errors": 0,
-        "latencies": [
-          2654.0,
-          2653.0,
-          2653.0,
-          2652.0
-        ],
-        "cost": 0.006888,
-        "tokens": 572,
-        "quality": [
-          0.8,
-          0.9,
-          0.8,
-          0.8
-        ]
-      },
-      {
-        "minute": "07:59",
-        "requests": 0,
-        "errors": 0,
-        "latencies": [
-          2653.0
-        ],
-        "cost": 0.001827,
-        "tokens": 149,
-        "quality": [
           0.9
         ]
       },
       {
-        "minute": "08:00",
+        "minute": "10:09",
+        "requests": 4,
+        "errors": 0,
+        "latencies": [
+          2657.0,
+          2656.0,
+          2656.0,
+          2655.0,
+          2659.0
+        ],
+        "cost": 0.010995000000000001,
+        "tokens": 873,
+        "quality": [
+          0.9,
+          0.9,
+          0.8,
+          0.8,
+          0.8
+        ]
+      },
+      {
+        "minute": "10:10",
         "requests": 0,
         "errors": 0,
         "latencies": [],
@@ -158,13 +108,30 @@
         "quality": []
       },
       {
-        "minute": "08:13",
-        "requests": 0,
+        "minute": "10:11",
+        "requests": 1,
         "errors": 0,
-        "latencies": [],
-        "cost": 0.0,
-        "tokens": 0,
-        "quality": []
+        "latencies": [
+          155.0
+        ],
+        "cost": 0.001923,
+        "tokens": 149,
+        "quality": [
+          0.8
+        ]
+      },
+      {
+        "minute": "10:13",
+        "requests": 1,
+        "errors": 0,
+        "latencies": [
+          154.0
+        ],
+        "cost": 0.001788,
+        "tokens": 140,
+        "quality": [
+          0.8
+        ]
       }
     ]
   }

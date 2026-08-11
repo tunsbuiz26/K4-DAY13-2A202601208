@@ -8,3 +8,5 @@ data/audit.jsonl
 .pytest_cache/
 .antigravity/
 .idea/
+*.doc
+*.docx
