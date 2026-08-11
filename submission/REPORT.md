@@ -77,7 +77,7 @@ Toàn bộ phép tính và chuỗi bằng chứng nằm tại [`evidence/challen
 
 | Thành viên | Mã sinh viên | Phần việc | Commit/PR | Báo cáo cá nhân |
 |---|---|---|---|---|
-| Đào Chí Hiển | 2A202601066 | Logging, correlation ID, context, PII | Chưa tạo - cần commit bằng tài khoản cá nhân | [`individual_reports/01-dao-chi-hien.md`](individual_reports/01-dao-chi-hien.md) |
+| Đào Chí Hiển | 2A202601066 | Logging, correlation ID, context, PII | `cfcf553` trên `main` | [`individual_reports/01-dao-chi-hien.md`](individual_reports/01-dao-chi-hien.md) |
 | Nguyễn Bùi Anh Tuấn | 2A202601208 | Tracing waterfall, prompt metadata/version workflow | `0e60fa9` trên `main` | [`individual_reports/02-nguyen-bui-anh-tuan.md`](individual_reports/02-nguyen-bui-anh-tuan.md) |
 | Nguyễn Việt Anh | 2A202601144 | Metrics, dashboard, validator, screenshot | Chưa tạo - cần commit bằng tài khoản cá nhân | [`individual_reports/03-nguyen-viet-anh.md`](individual_reports/03-nguyen-viet-anh.md) |
 | Nguyễn Ngọc Chi | 2A202602024 | SLO, alerts, runbook, incident investigation | Chưa tạo - cần commit bằng tài khoản cá nhân | [`individual_reports/04-nguyen-ngoc-chi.md`](individual_reports/04-nguyen-ngoc-chi.md) |
