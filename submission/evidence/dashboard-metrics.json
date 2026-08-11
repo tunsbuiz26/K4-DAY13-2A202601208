@@ -1,0 +1,171 @@
+{
+  "generated_at": "2026-08-11T08:13:35.824250+00:00",
+  "time_range_minutes": 60,
+  "records_in_window": 70,
+  "metrics": {
+    "latency": {
+      "p50": 150.0,
+      "p95": 2654.0,
+      "p99": 2654.0
+    },
+    "traffic": {
+      "count": 21,
+      "rate_per_minute": 0.35
+    },
+    "errors": {
+      "rate_pct": 0.0,
+      "count": 0,
+      "breakdown": {}
+    },
+    "cost": {
+      "total_usd": 0.043968
+    },
+    "tokens": {
+      "input": 726,
+      "output": 2786
+    },
+    "quality": {
+      "mean": 0.857
+    },
+    "series": [
+      {
+        "minute": "07:50",
+        "requests": 0,
+        "errors": 0,
+        "latencies": [],
+        "cost": 0.0,
+        "tokens": 0,
+        "quality": []
+      },
+      {
+        "minute": "07:51",
+        "requests": 0,
+        "errors": 0,
+        "latencies": [],
+        "cost": 0.0,
+        "tokens": 0,
+        "quality": []
+      },
+      {
+        "minute": "07:52",
+        "requests": 16,
+        "errors": 0,
+        "latencies": [
+          150.0,
+          150.0,
+          150.0,
+          150.0,
+          150.0,
+          150.0,
+          150.0,
+          150.0,
+          150.0,
+          150.0,
+          150.0,
+          2652.0,
+          2651.0,
+          2654.0,
+          2654.0,
+          2653.0
+        ],
+        "cost": 0.035253,
+        "tokens": 2791,
+        "quality": [
+          0.8,
+          0.9,
+          0.8,
+          0.8,
+          0.9,
+          0.9,
+          0.9,
+          0.9,
+          0.9,
+          0.9,
+          0.9,
+          0.9,
+          0.8,
+          0.8,
+          0.9,
+          0.8
+        ]
+      },
+      {
+        "minute": "07:55",
+        "requests": 0,
+        "errors": 0,
+        "latencies": [],
+        "cost": 0.0,
+        "tokens": 0,
+        "quality": []
+      },
+      {
+        "minute": "07:56",
+        "requests": 0,
+        "errors": 0,
+        "latencies": [],
+        "cost": 0.0,
+        "tokens": 0,
+        "quality": []
+      },
+      {
+        "minute": "07:57",
+        "requests": 0,
+        "errors": 0,
+        "latencies": [],
+        "cost": 0.0,
+        "tokens": 0,
+        "quality": []
+      },
+      {
+        "minute": "07:58",
+        "requests": 5,
+        "errors": 0,
+        "latencies": [
+          2654.0,
+          2653.0,
+          2653.0,
+          2652.0
+        ],
+        "cost": 0.006888,
+        "tokens": 572,
+        "quality": [
+          0.8,
+          0.9,
+          0.8,
+          0.8
+        ]
+      },
+      {
+        "minute": "07:59",
+        "requests": 0,
+        "errors": 0,
+        "latencies": [
+          2653.0
+        ],
+        "cost": 0.001827,
+        "tokens": 149,
+        "quality": [
+          0.9
+        ]
+      },
+      {
+        "minute": "08:00",
+        "requests": 0,
+        "errors": 0,
+        "latencies": [],
+        "cost": 0.0,
+        "tokens": 0,
+        "quality": []
+      },
+      {
+        "minute": "08:13",
+        "requests": 0,
+        "errors": 0,
+        "latencies": [],
+        "cost": 0.0,
+        "tokens": 0,
+        "quality": []
+      }
+    ]
+  }
+}

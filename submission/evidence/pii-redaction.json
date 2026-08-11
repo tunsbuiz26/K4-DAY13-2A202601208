@@ -1,0 +1,15 @@
+{
+  "service": "api",
+  "payload": {
+    "message_preview": "Email [REDACTED_EMAIL], điện thoại [REDACTED_PHONE_VN], [REDACTED_PASSPORT], [RE..."
+  },
+  "event": "request_received",
+  "model": "claude-sonnet-4-5",
+  "feature": "qa",
+  "correlation_id": "req-9787b64e",
+  "user_id_hash": "8fc1b9a78e3b",
+  "session_id": "session-pii",
+  "env": "dev",
+  "level": "info",
+  "ts": "2026-08-11T07:52:08.933643Z"
+}
