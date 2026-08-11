@@ -81,7 +81,7 @@ Toàn bộ phép tính và chuỗi bằng chứng nằm tại [`evidence/challen
 | Nguyễn Bùi Anh Tuấn | 2A202601208 | Tracing waterfall, prompt metadata/version workflow | `0e60fa9` trên `main` | [`individual_reports/02-nguyen-bui-anh-tuan.md`](individual_reports/02-nguyen-bui-anh-tuan.md) |
 | Nguyễn Việt Anh | 2A202601144 | Metrics, dashboard, validator, screenshot | Chưa tạo - cần commit bằng tài khoản cá nhân | [`individual_reports/03-nguyen-viet-anh.md`](individual_reports/03-nguyen-viet-anh.md) |
 | Nguyễn Ngọc Chi | 2A202602024 | SLO, alerts, runbook, incident investigation | Chưa tạo - cần commit bằng tài khoản cá nhân | [`individual_reports/04-nguyen-ngoc-chi.md`](individual_reports/04-nguyen-ngoc-chi.md) |
-| Trần Thanh Bình | 2A202601174 | QA, evidence automation, report, demo checklist | Chưa tạo - cần commit bằng tài khoản cá nhân | [`individual_reports/05-tran-thanh-binh.md`](individual_reports/05-tran-thanh-binh.md) |
+| Trần Thanh Bình | 2A202601174 | QA, evidence automation, report, demo checklist | `c988f2c` trên `main` | [`individual_reports/05-tran-thanh-binh.md`](individual_reports/05-tran-thanh-binh.md) |
 
 ## 8. Hạn chế và checklist trước khi nộp
 
